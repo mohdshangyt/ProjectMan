@@ -22,7 +22,6 @@ const syncUserCreation = inngest.createFunction(
     
 )
 //inngest functions to delete user data from data base
-export const inngest = new Inngest({ id: "project-management" });
 //inngest function to save user data to data base
 const syncUserDeletion = inngest.createFunction(
     {id: 'delete-user-from-clerk'},

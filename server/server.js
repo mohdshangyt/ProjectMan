@@ -15,9 +15,12 @@ app.get("/", (req, res)=>{
     res.send('SERVER IS LIVE!')
 });
 app.use("/api/inngest", serve({ client: inngest, functions }));
+
+/*
 const PORT = process.env.PORT || 5050;
 
 
 app.listen(PORT, ()=> {
     console.log(`SERVER IS RUNNING ON PORT ${ PORT }`)}
 );
+*/ 
