@@ -16,6 +16,8 @@ app.get("/", (req, res)=>{
 });
 app.use("/api/inngest", serve({ client: inngest, functions }));
 
+export default app;
+
 /*
 const PORT = process.env.PORT || 5050;
 
